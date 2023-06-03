@@ -1,0 +1,28 @@
+{
+	"name": "messageapp",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"engines": {
+		"node": "14.x"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.22"
+	},
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.20.2",
+		"express": "^4.18.2",
+		"express-validator": "^6.15.0",
+		"jsonwebtoken": "^9.0.0",
+		"lodash": "^4.17.21",
+		"mongoose": "^7.0.3",
+		"multer": "^1.4.5-lts.1"
+	}
+}
