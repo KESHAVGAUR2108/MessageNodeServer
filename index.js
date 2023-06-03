@@ -6,8 +6,8 @@ const path = require("path");
 
 const app = express();
 
-const feedRoutes = require("../routes/feed");
-const authRoutes = require("../routes/auth");
+const feedRoutes = require("./routes/feed");
+const authRoutes = require("./routes/auth");
 
 const fileStorage = multer.diskStorage({
 	destination: (req, file, cb) => {
